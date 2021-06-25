@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VulnDeepLink_Kotlin</string>
+    <string name="bt_webview">WebViewへ遷移</string>
+</resources>
