@@ -8,8 +8,17 @@
     android:orientation="vertical"
     tools:context=".WebViewActivity">
 
+    <!-- ディープリンクの実装のテストで使用 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="This is WebViewActivity"
+        android:textSize="30sp" />
+
+    <!-- ディープリンクとWebViewを使用した脆弱性で使用
     <WebView
         android:id="@+id/webView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" /> -->
 </LinearLayout>

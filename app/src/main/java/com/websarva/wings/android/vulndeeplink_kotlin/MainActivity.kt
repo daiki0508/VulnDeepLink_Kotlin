@@ -9,10 +9,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val btWebview = findViewById<Button>(R.id.bt_webview)
-        btWebview.setOnClickListener {
-            startActivity(Intent(this, WebViewActivity::class.java))
-        }
     }
 }
